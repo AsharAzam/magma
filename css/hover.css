@@ -1,0 +1,136 @@
+img {
+	width: 100%;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	position: relative;
+	display: block;
+	cursor: pointer;
+	overflow: hidden;
+
+}
+
+figure:hover figcaption {
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	filter: alpha(opacity=100);
+	opacity: 0.4;
+	top: 0;
+}
+
+figcaption {
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	filter: alpha(opacity=0);
+	opacity: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 250px;
+	/*background: url('../images/img1.jpg');*/
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	-webkit-transition: all .9s ease;
+	-moz-transition: all .9s ease;
+	-o-transition: all .9s ease;
+	-ms-transition: all .9s ease;
+	transition: all .9s ease;
+	-webkit-transition-delay: .5s;
+	-moz-transition-delay: .5s;
+	-o-transition-delay: .5s;
+	-ms-transition-delay: .5s;
+	transition-delay: .5s;
+
+}
+html body .panel figcaption{
+	background-size: 100% 100% !important;
+}
+.panel-1 figcaption{
+	
+	background: url('../images/panel-images/Logisticsl_590-770.png') !important;
+	
+}
+.panel-2 figcaption{
+	background: url('../images/panel-images/Tech-590by770.png') !important;
+
+
+}
+.panel-3 figcaption{
+	background: url('../images/panel-images/Digital_590-770.png') !important;
+
+
+}
+.panel-4 figcaption{
+	background: url('../images/panel-images/Managed_Services-590-770.png') !important;
+
+
+}
+figcaption .fig-cont-con{
+	position: absolute;
+	top: 50%;
+	margin-top: -100px;
+	text-align: center;
+	width: 100%;
+}
+figcaption h3 {
+	font-family: 'segoe ui';
+	font-weight: 400;
+	color: black;
+	padding: 10px 20px;
+	margin-bottom: 0;
+	position: relative;
+	margin-top: 37px;
+	font-size: 30px;
+	-webkit-transition: all .9s ease;
+	-moz-transition: all .9s ease;
+	-o-transition: all .9s ease;
+	-ms-transition: all .9s ease;
+	transition: all .9s ease;
+	width: 100% !important;
+	text-align: center;
+}
+
+figcaption p {
+	color: black;
+	font-weight: bold;
+	font-family: 'segoe ui';
+	padding: 10px 20px;
+	margin-bottom: 0;
+	margin-top: 20px;
+	position: relative;
+	left: 100%;
+	font-size: 13px;
+	-webkit-transition: all .9s ease;
+	-moz-transition: all .9s ease;
+	-o-transition: all .9s ease;
+	-ms-transition: all .9s ease;
+	transition: all .9s ease;
+}
+
+figure:hover h3,figure:hover p {
+	
+
+}
+
+figcaption a {
+	color: black;
+	border: 2px solid #fff;
+	padding: 4px 10px;
+	text-decoration: none;
+}
+
+figcaption a:hover {
+	color: black;
+	background: #fff;
+}
+
+figure span{	
+	transition:5s;
+}
+figure:hover span{
+	opacity:0 ; 
+	transition:2s;
+
+
+}

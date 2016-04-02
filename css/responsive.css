@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1400px) {
+
+	.loader-container{
+		width: 320px;
+		margin-left: -160px;
+		margin-top: -100px;
+	}
+	#image{
+		width: 200px;
+		height: 200px;
+		margin-top: -100px;
+    	margin-left: -100px;
+	}
+}
+@media only screen and (max-width: 1100px) {
+	html body .panel figcaption{
+		background-size: 120% 150% !important;
+	}
+	html body .panel-1 figcaption{
+		background-size: 100% 150% !important;
+	}
+}

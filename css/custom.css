@@ -1,0 +1,133 @@
+.wrapper{ 
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding:0px;
+}
+.loader-container{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    margin-left: -160px;
+    margin-top: -100px;
+}
+#background{
+    opacity: 0;
+    background-image: url('../images/background.jpg');
+}
+#image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+.loader-container #image1{
+    width: 100%;
+    height: 100%
+}
+#Animate{
+  margin: 0 auto;
+  width: 400px;
+}
+#Animate img{
+  display: none;
+  float: left;
+}
+
+.loading{
+    position: relative;
+     left: 0%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 268px;
+    
+}
+ul.sidebar-menu li a,ul.sidebar-menu li ul.sub li a{
+color:#E6232F;
+}
+.sidebar-toggle-box{
+    background: #32323a; // black
+}
+.sidebar-toggle-box .fa-bars{
+    color:#E6232F;
+    background: #28282e;
+
+}
+.sidebar-toggle-box .fa-bars:hover{
+    background: #E6232F;
+    color: #28282e;
+}
+
+#sidebar ul li,#container,ul.sidebar-menu li ul.sub li a:hover, ul.sidebar-menu li ul.sub li.active a{
+    
+    color: #E6232F;
+}  
+ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus{
+    color: #E6232F;
+}
+
+//
+
+#sidebar ul li,#container,ul.sidebar-menu li ul.sub li a:hover, ul.sidebar-menu li ul.sub li.active a{
+    background: #981119;
+    color: #E6232F;
+}  
+ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus{
+    background:#d61d29;
+    color: #fff;
+}
+ul.sidebar-menu li a.active i,ul.sidebar-menu li a:hover i, ul.sidebar-menu li a:focus i{
+    color: #fff;
+}
+ul.sidebar-menu li a, ul.sidebar-menu li ul.sub li a{
+    color: white;
+}
+ul ul ul,ul ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0px;
+}
+.pt-page-1{
+    background: #fff;
+}
+.back{
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    color: white;
+    font-size: 25px;
+}
+#Animate img:hover,.fa:hover{
+    cursor: pointer;
+}
+.panel-container{
+    width: 100%;
+    position: absolute;
+    top:0%;
+    display: none;
+    height: 100%;
+}
+.panel-container .panel{
+    
+    width: 25%;
+    float: left;
+    height: 100%;
+    border-right: 1.5px solid #E2E1E0;
+    background: none;
+    display: none;
+    border-radius: 0px;
+
+}
+.panel-container .panel h1{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+
+}
